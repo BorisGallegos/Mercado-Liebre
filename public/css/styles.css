@@ -1,0 +1,497 @@
+*{
+    margin: 0px;
+    padding: 0px;    
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #ebebeb;
+}
+
+h3{
+    font-size: 24px;
+}
+
+p{
+    font-size: 12px;
+}
+
+div.top-header{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5%;
+    margin-top: -10px;
+}
+
+header div.top-header p{
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+}
+
+header{
+    background-color: #EAC926;
+}
+
+header div.logo,
+header .form{
+    width: 50%;
+}
+
+header div.logo{
+    padding: 10px;
+}
+header .form{
+    display: flex;
+    align-items: center;
+    padding: 2px;
+    font-size: 11px;
+}
+header nav{
+    display: none;
+}
+
+header ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin: 1vw;
+}
+
+header ul li a{
+    text-decoration: none;
+    color: #000;
+}
+
+header .form .input{
+    background-color: #FFF;
+    outline: none;
+    color: #666;
+    width: 40vw;
+    height: 4vh;
+    padding: 2px;
+    border-radius: 5px;
+    font-size: 3.3vw;
+    text-align: center;
+    padding-top: 1.1vh
+}
+
+header .form .submit{
+    background-color: #FFF;
+    color: #666;
+    width: 5%;
+    height: 4vh;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 1.1vh;
+    position: absolute;
+    right: 10vw;
+
+}
+div .pay-option{
+   text-align: center;
+   margin-top: 10px;
+   width: 100%;
+}
+
+div.burger-menu{
+    text-align: center;
+}
+
+div.burger-menu i{
+    background-color: #0044AA;
+    border-radius: 5px;
+    color: #FFF;
+    font-size: 20px;
+    height: 40px;
+    margin: 10px 0px 20px 0px;
+    padding: 10px;
+    width: 40px;
+}
+
+div.last-visit,
+div.offers{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.price{
+    font-size: 18px;
+    width: 30%;
+}
+
+.discount{
+    width: 70%;
+}
+
+.discount,
+.description{
+    font-size: 16px;
+    font-weight: normal;
+}
+
+h3,
+.description{
+    color: #666;
+}
+
+.description{
+    display: none;
+    margin-top: 20px;
+}
+
+section.banner img{
+    width: 100%;
+}
+
+main{
+    width: 90%;
+    margin: 0 auto;
+}
+
+main section article{
+    background-color: #fff;    
+    margin: 10px 0px;
+}
+
+main section article img{
+    width: 100%;
+}
+
+main section article i,
+.discount{
+    color: #39b54a;
+}
+
+main section article i{
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    top: -15px;
+}
+
+main section h3{
+    margin: 20px 0px;
+}
+
+article div.main-article{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    border-top: 1px solid #ebebeb;
+    position: relative;
+    padding: 15px;
+}
+
+.description{
+    color: black;
+}
+
+.name-domicilio input{
+    display: flex;
+    margin-top: 20px;
+    border: none;
+    border-radius: 3px;
+    height: 30px;
+    font-size: 12px;
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.email{
+    margin-bottom: 0px;
+}
+
+.direcc{
+    margin-top: -20px;
+    margin-bottom: 20px;
+}
+
+.profile{
+    display: flex;
+    justify-content: space-between;
+    padding:15px 25px;
+}
+
+.interests{
+    padding: 10px 35px;
+}
+
+.interests div{
+    margin: 15px;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    
+}
+footer section {
+    width: 90%;
+    align-self: center;
+    margin-top: 20px;
+} 
+footer section ul .blue{
+    display: flex; 
+    justify-content: center;
+    color: #0044AA;
+}
+
+footer section li{
+    display: flex; 
+    justify-content: center;
+    ;
+}
+
+footer section p{
+    display: flex; 
+    justify-content: center;
+    text-align: center;
+}
+footer p.copyright {
+    margin: 20px 0px;
+    margin-left: 10px;
+}
+
+
+
+main.login{
+    display: flex;
+    justify-content: center;
+    width:  80%;
+    display: flex;
+} 
+
+main.login form input{
+    border-radius: 5px;
+    height: 30px;
+    width: 100%;
+    margin-top: 20px;
+    border: 0px;
+
+}
+
+main.login form input.send{
+    color: white;
+    background-color: #0044AA;
+}
+
+
+
+@media (min-width: 361px){
+    
+
+    main section article{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+
+    main section div.products{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    
+    main section div.products article{
+        width: 45%;
+    }
+
+    .price,
+    .discount{
+        width: 50%;
+    }    
+}
+
+@media (min-width: 481px) {
+    header div.logo {
+        width: 40%;
+        position: relative;
+        right: 5.5vw
+        }
+    
+    header .form{
+        width: 30%;
+        border: 0px;
+        position: relative;
+        right: 38px;
+    }
+        
+    header .form .input{
+        display: flex;
+        align-items: center;
+        text-align: left ;
+        width: 100%;
+        border-radius: 3px;
+        height: 17px;
+        font-size: 1.85vw;
+        padding-top: 3px;
+    }
+    header .form .submit{
+        font-size: 12px;
+        display: flex;
+        width: 15px;
+        height: 17px;
+        border-radius: 3px;
+        position: relative;
+        right: -0.25vw;
+        padding-top: 3px;
+    }
+
+    div .pay-option{
+        width: 35%;
+        font-size: 1.85vw;
+        position: absolute;
+        right: 1vw;
+    }
+    div .pay-option p{
+        font-size: 1.8vw;
+    }
+      
+    div.top-header{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;   
+    }
+    .burger-menu{
+        display: none;
+    }
+    header nav{
+        display: block;
+        display: flex;
+        justify-content: space-around;
+
+    }
+    header nav ul{
+        display: flex;
+        font-size: 1.85vw;
+    }
+}
+
+@media (min-width: 769px){
+    .description{
+        display: flex;        
+    }
+
+    main section article i:hover{
+        transition: 1s;
+        transform: rotate(-720deg);
+    }
+    
+
+    main section div.products article{
+        width: 22%;
+    }
+    header div.logo {
+        width: 40%;
+        position: relative;
+        right: 6vw
+        }
+    
+    header .form{
+        width: 30%;
+        border: 0px;
+        position: relative;
+        right: 38px;
+    }
+        
+    header .form .input{
+        display: flex;
+        align-items: center;
+        text-align: left ;
+        width:160px;
+        border-radius: 3px;
+        height: 17px;
+        font-size: 13px;
+        padding-top: 3px;
+    }
+    header .form .submit{
+        font-size: 12px;
+        display: flex;
+        width: 15px;
+        height: 17px;
+        border-radius: 3px;
+        position: relative;
+        right: -0.25vw;
+        padding-top: 3px;
+    }
+
+    div .pay-option{
+        width: 35%;
+        position: absolute;
+        right: 5vw;
+    }
+
+    div .pay-option p{
+        font-size: 13px;
+    }
+
+    div.top-header{ 
+        margin-top: -30px;
+    }
+
+    header nav ul{
+        display: flex;
+        font-size: 13px;
+    }
+    footer{
+        margin-top: 80px;
+        flex-wrap: wrap;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    footer section {
+        width: 30%;
+    } 
+    footer section ul .blue{
+        display: flex; 
+        justify-content: center;
+        color: #0044AA;
+    }
+    
+    footer section li{
+        display: flex; 
+        justify-content: center;
+        ;
+    }
+    
+    footer section p{
+        display: flex; 
+        justify-content: center;
+        text-align: center;
+    }
+
+    footer p.copyright {
+        margin-bottom: 20px;
+        margin-top: 50px;
+        position: relative;
+        right: 33vw;
+    }
+    
+    main.login{
+        display: flex;
+        justify-content: center;
+        width:  80%;
+        display: flex;
+    } 
+    
+    main.login form input{
+        border-radius: 5px;
+        height: 30px;
+        width: 80vw;
+        margin-top: 20px;
+        border: 0px;
+    
+    }
+
+}
